@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Jupiter">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/background_jupiter"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="85dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="68dp"
+        android:text="Júpiter"
+        android:textColor="#FF0000"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:text="Júpiter, o maior planeta do Sistema Solar, é acompanhado por um verdadeiro séquito de luas. Com mais de 80 satélites naturais confirmados, Júpiter abriga um dos sistemas de luas mais complexos e diversificados do nosso sistema planetário."
+        android:textAlignment="textStart"
+        android:textColor="#FF0000"
+        android:textSize="17dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="26dp"
+        android:text="As quatro maiores luas de Júpiter - Io, Europa, Ganimedes e Calisto, conhecidas como as Luas Galileanas em homenagem a Galileu Galilei, que as descobriu em 1610 - são mundos fascinantes por direito próprio. Io é marcada por vulcões ativos, enquanto Europa possui uma crosta de gelo que envolve um oceano subterrâneo, aumentando o interesse na busca por vida extraterrestre. Ganimedes, a maior lua do Sistema Solar, tem uma composição complexa, incluindo camadas de gelo e um possível oceano subsuperficial. Calisto, com sua superfície repleta de crateras, oferece pistas sobre a história violenta do Sistema Solar."
+        android:textAlignment="textStart"
+        android:textColor="#FF0000"
+        android:textSize="17dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
